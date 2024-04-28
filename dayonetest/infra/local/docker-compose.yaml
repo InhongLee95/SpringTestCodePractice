@@ -9,7 +9,7 @@ services:
       MYSQL_DATABASE: score
       MYSQL_ROOT_PASSWORD: password
     ports:
-      - 3307:3306
+      - 3307:3306  # host포트 3307
     volumes:
       - ./dbdata:/var/lib/mysql
   local-db-migrate:

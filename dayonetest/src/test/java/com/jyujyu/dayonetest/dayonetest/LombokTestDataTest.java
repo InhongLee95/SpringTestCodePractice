@@ -1,9 +1,8 @@
 package com.jyujyu.dayonetest.dayonetest;
 
+import com.jyujyu.dayonetest.TestData;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 
 class LombokTestDataTest {
