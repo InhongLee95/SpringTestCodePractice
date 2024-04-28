@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "student_score")
 public class StudentScore {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "student_socre_id")
+    @Column(name = "student_score_id")
     private Long id;
 
     @Column(name = "exam")

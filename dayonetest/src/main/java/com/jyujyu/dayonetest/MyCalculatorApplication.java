@@ -3,7 +3,8 @@ package com.jyujyu.dayonetest;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+
+
 public class MyCalculatorApplication {
 
     public static void main(String [] args) {
